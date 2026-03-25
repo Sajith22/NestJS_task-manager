@@ -1,0 +1,29 @@
+# NEVER commit node_modules!
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+**/dist/
+
+# Environment files
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+.tmp/
+temp/
